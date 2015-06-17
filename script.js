@@ -5,8 +5,9 @@ $(document).ready(function () {
     var applicationID = '3A344528';
     var namespace = 'urn:x-cast:com.conorriches.helloworld';
     var session = null;
+    
     console.log("Loaded");
-
+    initializeCastApi();
 
     /**
      * initialization
