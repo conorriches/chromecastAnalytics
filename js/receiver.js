@@ -1,6 +1,5 @@
-/**
- * Created by NyanCat on 17/06/15.
- */
+var namespace = 'urn:x-cast:com.conorriches.analytics';
+
 window.onload = function() {
     cast.receiver.logger.setLevelValue(0);
     window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
@@ -33,9 +32,7 @@ window.onload = function() {
     };
 
     // create a CastMessageBus to handle messages for a custom namespace
-    window.messageBus =
-        window.castReceiverManager.getCastMessageBus(
-            'urn:x-cast:com.conorriches.analytics');
+    window.messageBus = window.castReceiverManager.getCastMessageBus(namespace);
 
     // handler for the CastMessageBus message event
     window.messageBus.onMessage = function(event) {
