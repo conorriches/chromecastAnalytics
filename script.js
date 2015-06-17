@@ -5,14 +5,15 @@ $(document).ready(function () {
     var applicationID = '3A344528';
     var namespace = 'urn:x-cast:com.conorriches.helloworld';
     var session = null;
-    
-    console.log("Loaded");
+
+
     initializeCastApi();
 
     /**
      * initialization
      */
     function initializeCastApi() {
+        console.log("Loaded");
         var sessionRequest = new chrome.cast.SessionRequest(applicationID);
         var apiConfig = new chrome.cast.ApiConfig(sessionRequest,
             sessionListener,
@@ -122,8 +123,6 @@ $(document).ready(function () {
      */
     function appendMessage(message) {
         console.log(message);
-        var dw = document.getElementById("debugmessage");
-        dw.innerHTML += '\n' + JSON.stringify(message);
     };
 
 
