@@ -1,5 +1,5 @@
 var applicationID = '3A344528';
-var namespace = 'urn:x-cast:com.conorriches.analytics';
+var namespace = 'com.conorriches.analytics';
 var session = null;
 
 /**
