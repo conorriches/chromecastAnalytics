@@ -1,5 +1,5 @@
 var applicationID = '3A344528';
-var namespace = 'com.conorriches.analytics';
+var namespace = 'urn:x-cast:com.conorriches.analytics';
 var session = null;
 
 /**
@@ -106,7 +106,7 @@ function stopApp() {
  */
 function sendMessage(message) {
     if (session!=null) {
-        session.sendMessage(namespace, message, onSuccess.bind(this, "Message sent: " + message), onError);
+        session.sendMessage(namespace, message, onSuccess, onError);
     }
     else {
         chrome.cast.requestSession(function(e) {
@@ -130,13 +130,7 @@ function appendMessage(message) {
  * utility function to handle text typed in by user in the input field
  */
 function update() {
-    sendMessage(document.getElementById("input").value);
-}
-
-/**
- * handler for the transcribed text from the speech input
- * @param {string} words A transcibed speech string
- */
-function transcribe(words) {
-    sendMessage(words);
+    var val = document.getElementById("input").value;
+    console.log("Value is " +val );
+    sendMessage(val);
 }
