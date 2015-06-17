@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b14515c-52e5-40b6-9bd4-a6674559bea3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/receiver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/receiver.css" afterPath="$PROJECT_DIR$/css/receiver.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/receiver/receiver.html" afterPath="$PROJECT_DIR$/receiver/receiver.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chromecastAnalytics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +31,19 @@
       <file leaf-file-name="sender.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sender/sender.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="595">
+            <state line="4" column="68" selection-start="65" selection-end="129" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="595">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="receiver.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/receiver/receiver.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="57" selection-start="895" selection-end="895" vertical-scroll-proportion="0.4972145" vertical-offset="0" max-vertical-offset="718">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="receiver.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/receiver/receiver.html">
+      <file leaf-file-name="receiver.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/receiver.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="50" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.26601672" vertical-offset="1101" max-vertical-offset="1819">
+            <state line="15" column="1" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -73,6 +85,8 @@
         <option value="$PROJECT_DIR$/css/sender.css" />
         <option value="$PROJECT_DIR$/sender/sender.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/receiver.css" />
+        <option value="$PROJECT_DIR$/js/receiver.js" />
         <option value="$PROJECT_DIR$/receiver/receiver.html" />
       </list>
     </option>
@@ -272,26 +286,10 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/receiver.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/sender.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="46" selection-start="149" selection-end="149" vertical-scroll-proportion="0.13709678" vertical-offset="0" max-vertical-offset="744">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sender/sender.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -302,9 +300,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/receiver.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sender/sender.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="68" selection-start="65" selection-end="129" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="595">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/receiver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="2" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.95430106" vertical-offset="259" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/receiver/receiver.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="50" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.26601672" vertical-offset="1101" max-vertical-offset="1819">
+        <state line="21" column="57" selection-start="895" selection-end="895" vertical-scroll-proportion="0.4972145" vertical-offset="0" max-vertical-offset="718">
           <folding />
         </state>
       </provider>
